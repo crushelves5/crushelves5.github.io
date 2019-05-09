@@ -1,0 +1,23 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<style>
+	p{
+		display:inline-block;
+	}
+</style>
+</head>
+<body>
+	<div ng-app="mySite" ng-controller="myCtrl">
+		<h1>Bethel's KDCO Webpage</h1>
+		<p>What is your name?</p>
+		<input ng-bind="name" type="text">
+<br>
+		<p>What is the Name of your team?</p>
+		<input ng-bind="team_name" type="text">
+<br>
+		<p>What is the name of your team lead?</p>
+		<input ng-bind="team_lead" type="text">
+
+		
+	</div>
+</body>
